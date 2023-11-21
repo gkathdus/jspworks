@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>로그인 폼</title>
+</head>
+<body>
+	<form action="LoginProcess.jsp">
+		<ul>
+			<li>
+				<label for="name">이름</label>
+				<input type="text" id="uname" name="uname">
+			</li>
+			<li>
+				<label for="passwd">비밀번호</label>
+				<input type="password" id="passwd" name="passwd">
+			</li>
+			<li>
+				<label for="name">로그인</label>
+			</li>
+		</ul>
+	</form>
+</body>
+</html>
