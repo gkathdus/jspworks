@@ -14,6 +14,7 @@
 		abDAO.addAddrBook(addrBook); // 주소 추가
 		// 회원 가입 후 자동 로그인
 		session.setAttribute("sessionId", addrBook.getEmail());
+		session.setAttribute("sessionName", addrBook.getUsername());
 	%>
 	<div id="container">
 		<h2>등록 내용</h2>
